@@ -48,7 +48,7 @@
                     document.getElementById("namamu").innerHTML = "Halo, " + nama + "!";                    
                 } else {
                     await swals.fire('Isi namanya bby');
-                    await swals.fire('Ga bole kosong camtik');
+                    await swals.fire('Ga bole kosong yaaa');
                     mulai();
                 }
             }
@@ -63,7 +63,7 @@
                         allowOutsideClick: false,
                     }).then((result) => {
                         if (result.isConfirmed) {
-                             window.sayang = "sayang";lanjutan2();    
+                             window.sayang = "suka";lanjutan2();    
                         } else if (result.isDenied) {window.sayang = "enggak sayang";window.persen = "%3A%2F";Swal.fire('Yaudah deh:(');whs();}})}
   
                     async function lanjutan2(){
